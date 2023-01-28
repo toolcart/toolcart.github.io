@@ -1,0 +1,269 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+@font-face {
+	font-family: "BillFont1";
+	src: url("/fonts/billfont1.woff2") format("truetype");
+}
+
+@font-face {
+	font-family: "BillFont2";
+	src: url("/fonts/billfont2.woff2") format("truetype");
+}
+
+@font-face {
+	font-family: "BillFont3";
+	src: url("/fonts/billfont3.woff2") format("truetype");
+}
+
+@font-face {
+	font-family: "BillFont4";
+	src: url("/fonts/billfont4.woff2") format("truetype");
+}
+
+@font-face {
+	font-family: "BillFont5";
+	src: url("/fonts/billfont5.woff2") format("truetype");
+}
+
+.bill {
+	line-height: 0.75;
+	border-radius: 0px !important;
+	background-repeat: no-repeat !important;  
+	background-position: 0% 0% !important;
+	background-size: 100% 100% !important;
+	background-color: rgb(228 222 215 / 50%);
+	background-blend-mode: multiply !important;
+}
+
+.bill-font1 {
+	font-family: BillFont1;
+	font-size: 16px;
+}
+
+.bill-font2 {
+	font-family: BillFont2;
+	font-size: 11px;
+	line-height: 1.1 !important;
+}
+
+.bill-font3 {
+	font-family: BillFont3;
+	font-size: 18px;
+	line-height: 0.6 !important;
+}
+
+.bill-font4 {
+	font-family: BillFont4;
+	font-size: 18px;
+	line-height: 0.55 !important;
+	font-weight: bold;
+}
+
+.bill-font5 {
+	font-family: BillFont5;
+	font-size: 15px;
+	line-height: 0.55 !important;
+}
+
+.bill-bg1 {
+	background-image: url("/images/BillBG1.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg2 {
+	background-image: url("/images/BillBG2.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+	opacity: 0.8;
+}
+
+.bill-bg3 {
+	background-image: url("/images/BillBG3.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg4 {
+	background-image: url("/images/BillBG4.jpg") !important;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.bill-bg5 {
+	background-image: url("/images/BillBG5.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg6 {
+	background-image: url("/images/BillBG6.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg7 {
+	background-image: url("/images/BillBG7.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg8 {
+	background-image: url("/images/BillBG8.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg9 {
+	background-image: url("/images/BillBG9.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg10 {
+	background-image: url("/images/BillBG10.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg11 {
+	background-image: url("/images/BillBG11.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg12 {
+	background-image: url("/images/BillBG12.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg13 {
+	background-image: url("/images/BillBG13.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg14 {
+	background-image: url("/images/BillBG14.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg15 {
+	background-image: url("/images/BillBG15.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-bg16 {
+	background-image: url("/images/BillBG16.jpg") !important;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.bill-text1 {
+	opacity: 0.1;
+}
+
+.bill-text2 {
+	opacity: 0.2;
+}
+
+.bill-text3 {
+	opacity: 0.3;
+}
+
+.bill-text4 {
+	opacity: 0.4;
+}
+
+.bill-text5 {
+	opacity: 0.5;
+}
+
+.bill-text6 {
+	opacity: 0.6;
+}
+
+.bill-text7 {
+	opacity: 0.7;
+}
+
+.bill-text8 {
+	opacity: 0.8;
+}
+
+.bill-text9 {
+	opacity: 0.9;
+}
+
+.bill-text10 {
+	opacity: 1;
+}
+
+.bill-logo {
+	text-align: center;
+	height: 100px;
+	width: auto;
+	margin-top: 50px;
+	opacity: 0.8;
+}
+
+.receiptDownload {
+	margin-top: 20px;
+}
+
+.is-full-width > .bill {
+	padding: 0.75em !important;
+}
+
+.empty-line {
+	padding-top: 10px;
+}
